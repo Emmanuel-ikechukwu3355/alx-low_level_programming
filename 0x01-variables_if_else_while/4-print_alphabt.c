@@ -8,7 +8,7 @@ int main(void)
 {
 	char k;
 
-	for (k = 'a'; k < = 'z'; k++)
+	for (k = 'a'; k <= 'z'; k++)
 	{
 		if (k == 'q' || k 'e')
 		{
