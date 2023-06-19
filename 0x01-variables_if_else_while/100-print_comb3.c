@@ -6,6 +6,7 @@
  *
  * Return: All the time 0
  */
+
 int main(void)
 {
 	int c, d;
