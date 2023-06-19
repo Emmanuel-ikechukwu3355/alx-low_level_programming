@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point 
- *
- * Return: All the time 0
+ * Return: All the time 0 
  */
+
 int main(void)
 {
 	int a, b, k;
 	
 	for (a = '0'; a < '9'; a++)
 	{
-	for (b = a + 1; b < = '9'; b++)
+	for (b = a + 1; b <= '9'; b++)
 	{
-	for (k = b + 1; k < = '9'; k++)
+	for (k = b + 1; k <= '9'; k++)
 	{
 	if ((b != a) != k)
 	{
