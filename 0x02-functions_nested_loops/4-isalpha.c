@@ -1,12 +1,15 @@
+#include <ctype.h>
 #include "main.h"
 /**
- *  _isalpha - checks for alphabetic order
- *
- *  @c: alpabet to check for 
- *
- *  Return: 1 if c is a letter, 0 otherwise
+ * _isalpha - iopopopop
+ * @c: is the checker
+ * Return: 0 if 1
  */
+
 int _isalpha(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+if (isalpha(c) == 0)
+return (0);
+else
+return (1);
 }
