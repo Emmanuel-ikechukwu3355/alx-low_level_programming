@@ -1,42 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * times_table - check description
- * Description: it prints 9 times table starting with 0
- * Return: Nothing.
+ * print_to_98 - is a fumction
+ * @n: is a function
  */
 
-void times_table(void)
+void print_to_98(int n)
 {
-	int i, j, n;
+int k = n;
 
-	for (i = 0; i <= 9; i++)
-	{
-		for (j = 0; j <= 9; j++)
-		{
-			n = i * j;
-
-			if ((n / 10) == 0)
-			{
-				if (j != 0)
-					_putchar(' ');
-				_putchar(n + '0');
-
-				if(j == 9)
-					continue;
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-				if (j == 9)
-					continue;
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
-		_putchar('\n');
-	}
+while (k != 98)
+{
+printf("%d, ", k);
+if (n >= 98)
+k--;
+else
+k++;
+}
+printf("%d\n", k);
 }
