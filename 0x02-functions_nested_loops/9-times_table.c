@@ -1,22 +1,24 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * print_to_98 - is a fumction
- * @n: is a function
+ * times_table - hieheieei
  */
 
-void print_to_98(int n)
+void times_table(void)
 {
-int k = n;
+int i, j;
 
-while (k != 98)
+for (i = 0; i < = 9; i++)
 {
-printf("%d, ", k);
-if (n >= 98)
-k--;
+for (j = 0; j < = 9; j++)
+{
+if (j != 0)
+printf("%2d", i * j);
 else
-k++;
+printf("0");
+if (j != 9)
+printf(", ");
 }
-printf("%d\n", k);
+printf("\n");
+}
 }
