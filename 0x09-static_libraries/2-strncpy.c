@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+ * _strncpy - program copy a a string
+ * @dest: input value
+ * @src: input value
+ * @n: input value
+ *
+ * Return: dest
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	int b = 0;
+
+	while (b < n && src[b] != '\0')
+	{
+		dest[b] = src[b];
+		b++;
+	}
+
+	return (dest);
+}
